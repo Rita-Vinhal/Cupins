@@ -98,3 +98,23 @@ There are **112 rows** of data and **20 columns**, each row containing data for 
 * **MEVI** = *Melaleuca viridiflora*
 * **MYGL** = *Myristica globosa*
 * **SYSA** = *Syzygium sayeri*
+
+## 🌲 Motor Preditivo Eco-Flux |  Eco-Flux Predictive Engine
+
+🇧🇷 **Português:**
+Este repositório contém uma análise biogeoquímica avançada para dados de decomposição de madeira e fluxo de gases de efeito estufa. O script principal utiliza a estrutura `tidymodels` para aplicar Machine Learning (Random Forest) e modelagem preditiva, descobrindo quais atributos físicos e ambientais (como densidade da madeira, temperatura e nitrogênio) impulsionam a respiração de carbono.
+
+**Principais Funcionalidades:**
+* **Data Wrangling Dinâmico:** Tratamento automático de decimais em padrão brasileiro (vírgulas) e padronização de cabeçalhos utilizando o pacote `janitor`.
+* **Gráficos de Assinatura Biogeoquímica:** Visualização de fluxos de emissão (em escala logarítmica) utilizando *Ridge Plots* para comparar espécies arbóreas e a sazonalidade (seca vs. chuva).
+* **Machine Learning:** Modelo preditivo Random Forest (via `ranger`) acompanhado de um Gráfico de Importância de Variáveis (VIP) para isolar os maiores catalisadores da decomposição.
+
+---
+
+🇺🇸 **English:**
+This repository contains an advanced biogeochemical analysis pipeline for wood decomposition and greenhouse gas flux data. The core script utilizes the `tidymodels` framework to apply Machine Learning (Random Forest) and predictive modeling, uncovering which physical and environmental traits (such as wood density, temperature, and nitrogen) drive carbon respiration.
+
+**Key Features:**
+* **Dynamic Data Wrangling:** Automatic parsing of Brazilian-standard decimals (commas) and header standardization using the `janitor` package.
+* **Biogeochemical Signature Plots:** Visualization of emission fluxes (on a logarithmic scale) using *Ridge Plots* to compare tree species and seasonality (dry vs. wet seasons).
+* **Machine Learning:** Random Forest predictive model (via `ranger`) accompanied by a Variable Importance Plot (VIP) to isolate the primary drivers of decomposition.
